@@ -9,7 +9,6 @@ from web_functions import load_data
 # Configure the app
 st.set_page_config(
     page_title = 'Diabetes Prediction',
-    page_icon ='🥯',
     layout = 'wide',
     initial_sidebar_state = 'auto'
 )
@@ -30,7 +29,7 @@ Tabs = {
 
 # Create a sidebar
 # Add title to sidear
-st.sidebar.title("Navigation")
+st.sidebar.title("𝙽𝚊𝚟𝚒𝚐𝚊𝚝𝚒𝚘𝚗")
 
 # Create radio option to select the page
 page = st.sidebar.radio("Pages", list(Tabs.keys()))

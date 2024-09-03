@@ -21,7 +21,7 @@ def app(df, X, y):
     """This function create the prediction page"""
 
     # Add title to the page
-    st.title("Prediction Page")
+    st.title("𝐏𝐫𝐞𝐝𝐢𝐜𝐭𝐢𝐨𝐧 𝐏𝐚𝐠𝐞")
 
     # Add a brief description
     st.markdown(

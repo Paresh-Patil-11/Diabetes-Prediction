@@ -8,7 +8,7 @@ def app(df):
     """This function create the Data Info page"""
 
     # Add title to the page
-    st.title("Data Info page")
+    st.title("𝐃𝐚𝐭𝐚 𝐈𝐧𝐟𝐨 𝐏𝐚𝐠𝐞")
 
     # Add subheader for the section
     st.subheader("View Data")
